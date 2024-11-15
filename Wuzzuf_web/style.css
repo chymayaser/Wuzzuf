@@ -1,0 +1,599 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.home
+{
+    overflow: auto;
+    /* background-image: url(../Image/917\ ED.jpg); */
+    background-image: url(../Image/html-css-collage-concept-with-person.jpg);
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position:bottom; 
+    height: 100vh;
+}
+
+.layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    overflow: auto;
+}
+
+.home-content
+{
+
+    margin-top: 20%; 
+    
+}
+
+.home h1
+{
+    font-size: 50px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+
+.home p
+{
+    color: #fff;
+    font-size: 20;
+    padding: 10px 0px;
+}
+
+input
+{
+    background-color: #fff;
+    padding: 23px;
+    width: 50%;
+    font-size: 20px;
+    font-family: "EB Garamond", serif;
+    border: none;
+    border-radius: 7px;
+}
+
+button
+{
+    background-color: #4554dd;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #fff; 
+     border-radius: 7px;
+     /* transition: 1s color , 1s background-color ,1s border; */
+        transition: 0.5s background-color;
+     margin-left: -150px;
+   
+}
+
+button:hover 
+{
+    background-color: #1d2885;
+    /* background-color:#fff;
+    color:#4554dd;
+    border: 2px solid #4554dd; */
+    cursor: pointer;
+}
+
+
+
+.nav
+{
+    position:fixed;
+    left: 0%;
+    top: 0%;
+    float: left;
+    width: 98%;
+    margin: auto;
+   translate: background-color;
+    transition: 1s 1s;
+    display: block;
+}
+
+.nav h2
+{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    left: 60px;
+    top:38px;
+
+}
+
+.nav .link-1 
+{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+    position: absolute;
+    left: 380px;
+    top:50px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav .link-2
+{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+    position: absolute;
+    left: 250px;
+    top:50px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav .link-1:hover
+{
+    color: silver;
+}
+
+.nav .link-2:hover
+{
+    color: silver;
+}
+
+
+/* .one .btn-btn2
+{
+    padding: 10px;
+    position: absolute;
+    top:50px;
+    background-color: black;
+}
+ */
+
+ .title h2
+ {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 30px 0px;
+ }
+
+ .container
+ {
+    max-width: 1400px;
+    margin: auto;
+    padding: 16px;
+    
+ }
+
+ .container h2
+ {
+    font-size: 30px;
+    font-weight: 300;
+    padding: 15px 0px;
+ }
+
+ .container .brdr
+ {
+    
+    width: 6%;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 20px;
+    
+ }
+
+ .job-1
+ {
+    width: 30%;
+    float: left;
+    border: solid 1px rgb(207, 207, 207);
+    margin-left:5px ;
+    border-radius: 8px;
+    padding: 30px 0px;
+
+
+ }
+
+ .job-1 h4 ,.job-2 h4 
+{
+    color: #4554dd;
+    font-weight:500;
+    
+}
+
+.job-3 h4 , .job-4 h4
+{
+    color: #4554dd;
+    font-weight:500;
+}
+
+ .job-2
+ {
+    border: solid 1px rgb(207, 207, 207);
+    width: 20%;
+    float: left;
+    margin-left:15px ;
+    border-radius: 8px;
+    padding: 30px 0px;
+ }
+
+ .job-3
+ {
+    border: solid 1px rgb(207, 207, 207);
+    width: 20%;
+    float: left;
+    margin-left:15px ;
+    border-radius: 8px;
+    padding: 30px 0px;
+ }
+
+ .job-4
+ {
+    border: solid 1px rgb(207, 207, 207);
+    width: 20%;
+    float: left;
+    margin-left:15px ;
+    border-radius: 8px;
+    padding: 30px 0px;
+ }
+
+ .clearfix
+ {
+    clear: both;
+ }
+
+
+ .job-1
+ {
+    width: 20%;
+    float: left;
+    border: solid 1px rgb(207, 207, 207);
+    margin-left:5px ;
+    border-radius: 8px;
+    padding-left:10px ;
+
+ }
+
+ .job-1 h4 ,.job-2 h4 
+{
+    color: #4554dd;
+    font-weight:500;
+    
+}
+
+.job-3 h4 , .job-4 h4
+{
+    color: #4554dd;
+    font-weight:500;
+}
+
+ .job-2
+ {
+    border: solid 1px rgb(207, 207, 207);
+    width: 20%;
+    float: left;
+    margin-left:15px ;
+    border-radius: 8px;
+    padding-left:10px ;
+ }
+
+ .job-3
+ {
+    border: solid 1px rgb(207, 207, 207);
+    width: 20%;
+    float: left;
+    margin-left:15px ;
+    border-radius: 8px;
+    padding-left:10px ;
+    padding-left:10px ;
+ }
+
+ .job-4
+ {
+    border: solid 1px rgb(207, 207, 207);
+    width: 20%;
+    float: left;
+    margin-left:15px ;
+    border-radius: 8px;
+    padding-left:10px ;
+ }
+
+ .clearfix
+ {
+    clear: both;
+ }
+
+
+ .title-2
+ {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(248, 242, 242);
+    height: 30%;
+    overflow: auto;
+    padding: 100px 0px;
+ }
+
+ .title-2 h2
+ {
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px 0px;
+ }
+
+ .title-2 p
+ {
+    color: rgb(85, 84, 84);
+    font-weight: 100;
+ }
+
+ .title-2 .click
+ {
+    background-color: #4554dd;
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #fff; 
+     border-radius: 7px;
+     width: 140px;
+     margin-top: 20px;
+     margin-left: 0%;
+ }
+
+ .click:hover 
+{
+    background-color:#fff;
+    color:#4554dd;
+    border: 2px solid #4554dd;
+}
+
+
+.image
+{
+    margin-top: 50px;
+    width:20%;
+    float:left;
+
+    margin: auto;
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+.image img
+{
+    width:90%;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+.j-category h2
+{
+    font-size: 30px;
+    font-weight: 300;
+    max-width: 1300px;
+    margin: auto;
+    padding: 16px;
+    margin-top: 50px; 
+}
+
+.j-category .brdr
+ {
+    
+    width: 6%;
+    height: 4px;
+    background-color: black;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    
+ }
+
+ .image h3
+ {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4554dd;
+ }
+
+ .image-2
+ {
+    margin-top: 20px;
+    width:20%;
+    float:left;
+  
+}
+
+.image-2 img
+{
+    width:90%;
+}
+
+
+.clearfix
+{
+    clear: both;
+}
+
+ .j-location h2
+{
+    font-size: 30px;
+    font-weight: 300;
+    max-width: 1300px;
+    margin: auto;
+    padding: 15px; 
+    margin-top: 350px; 
+} 
+
+.j-location .brdr
+ {
+    
+    width: 6%;
+    height: 4px;
+    background-color: black;
+    margin-left: 180px;
+  
+ }
+
+
+ .image-2 h3
+ {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4554dd;
+ }
+
+
+ .footer
+ {
+    background: #031431;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    padding-top:6% ;
+    margin-top: 20px;
+    
+ }
+
+ .footer h1
+ {
+    font-size: 50px;
+    color: #fff;
+    padding: 10px 0px;
+ }
+
+ .footer .jobs
+ {
+      font-family: "Reem Kufi", sans-serif;  
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 20px;
+
+ }
+
+ .follow
+ {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Reem Kufi", sans-serif;  
+    padding-bottom: 10px;
+ }
+
+
+ i
+ {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+ }
+
+ i:hover
+ {
+    cursor: pointer;
+ }
+
+.copyRight
+{
+color: #fff;
+text-align: center;
+font-size: 15px;
+padding-top: 10px;
+padding-bottom: 30px;
+}
+
+
+ @media screen and (max-width: 992px) 
+ {
+    .start .first
+{
+    text-decoration: none;
+
+}
+
+.start .second
+{
+   
+    text-decoration: none;
+
+}
+
+input
+{
+    padding: 20px;
+    width: 65%;
+   
+}
+
+
+button
+{
+    position: absolute;
+    left: 68%;
+    top: 56%;
+
+   
+}
+
+.sixx .click
+ {
+    position: absolute;
+    left:43%;
+    top:213%;
+    padding: 13px;
+     width: 143px;
+ }
+
+
+ .eight .brdr
+ {
+    
+    width: 7%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+ }
+
+
+
+.zero .brdr
+ {
+    width: 7%;
+    margin-left: 20px;
+    
+ }
+
+
+ .ten
+ {
+   
+    padding-top:1% ;
+ }
+
+ .ten h1
+ {
+    font-size: 40px;
+ }
+
+ .ten p
+ {
+    font-size: 40px;
+ }
+
+ }
+
+ 
+Ss5324418sS old
+
+sS5324418Ss new
